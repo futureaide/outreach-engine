@@ -1,0 +1,36 @@
+# Secrets
+.env
+token.json
+oauth_credentials.json
+credentials.json
+service_account.json
+
+# Intermediate/cache files
+.tmp/
+
+# Sending accounts (contains email addresses)
+accounts.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# IDE
+.cursor/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Data exports
+*.csv
+!requirements.txt
+
+# Logs
+*.log

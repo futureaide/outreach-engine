@@ -1,0 +1,42 @@
+# Outreach Engine v2 Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core HTTP/API
+requests>=2.31.0
+httpx>=0.25.0
+fastapi>=0.135.0
+modal>=1.2.0
+
+# Apify (Lead Sourcing + LinkedIn Scraping)
+apify-client>=1.6.0
+
+# Google Sheets
+gspread>=6.0.0
+google-auth>=2.25.0
+google-auth-oauthlib>=1.2.0
+
+# Anthropic (Claude for Variable Synthesis)
+anthropic>=0.18.0
+
+# Perplexity (OpenAI-compatible API)
+openai>=1.12.0
+
+# Data Processing
+pandas>=2.1.0
+pydantic>=2.5.0
+
+# Environment & Config
+python-dotenv>=1.0.0
+
+# CLI
+click>=8.1.0
+rich>=13.7.0
+
+# Utilities
+tenacity>=8.2.0
+structlog>=24.1.0
+
+# Development (optional)
+pytest>=7.4.0
+black>=24.1.0
+ruff>=0.1.0
